@@ -14,7 +14,7 @@ connectDB()
         throw error;
     })
     app.listen(process.env.PORT||8000,()=>{
-        console.log(`Server is running chill karo PORT : ${process.env.PORT}`);
+        console.log(`Server is running chill karo PORT : ${process.env.PORT}`)
     })
 })
 .catch((error)=>{
